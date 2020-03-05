@@ -1,0 +1,9 @@
+{
+    "clientId":"shenc",
+    "clientSecret":"123456",
+    "scopes":["data:read", "data:write"],
+    "authorizedGrantTypes":["client_credentials"],
+    "registeredRedirectUris":[],
+    "authorities":["user"]
+}
+      

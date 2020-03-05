@@ -1,0 +1,15 @@
+jwt:
+  secret: javainuse
+
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      username: user
+      password: ${MONGODB_PASSWORD}
+      database: auth
+      port: 27017
+
+server:
+  servlet:
+    context-path: /auth
